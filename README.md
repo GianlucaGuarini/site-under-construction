@@ -4,7 +4,7 @@ Simple simple splash page template to use while a site is still under constructi
 
 ### Demos
 
-![bower](gianlucaguarini.github.com/site-under-construction/demos/images/bower.jpg)
+![bower](https://raw2.github.com/GianlucaGuarini/site-under-construction/master/demos/images/bower.png)
 
 ### Dependencies
 

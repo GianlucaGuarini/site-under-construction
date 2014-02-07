@@ -35,10 +35,15 @@ module.exports = function(grunt) {
     copy: {
       main: {
         files: [{
-          // take the only the folders needed on the production server from the assets folde
+          // take the only the folders needed on the production server from the assets folder
           expand: true,
           cwd: 'assets',
-          src: ['css/**', 'img/**', 'fonts/**'],
+          src: [
+            'css/**',
+            'img/**',
+            'fonts/**',
+            'favicons/**'
+          ],
           dest: 'dist/assets'
         }, {
           // take only the root files needed on the production server from the root

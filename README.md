@@ -5,6 +5,8 @@ Simple simple splash page template to use while a site is still under constructi
 ### Demos
 
 ![bower](https://raw2.github.com/GianlucaGuarini/site-under-construction/master/demos/images/bower.png)
+![grunt](https://raw2.github.com/GianlucaGuarini/site-under-construction/master/demos/images/grunt.png)
+![nodejs](https://raw2.github.com/GianlucaGuarini/site-under-construction/master/demos/images/nodejs.png)
 
 ### Dependencies
 

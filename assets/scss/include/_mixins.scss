@@ -1,0 +1,42 @@
+/**
+ *
+ * Used to generate responsive styles according to the breakpoint we set into the variables file
+ *
+ */
+@mixin respond-to($media) {
+  @if $media == landscape {
+    @media only screen and (orientation: landscape) {
+      @content;
+    }
+  }
+  @else if $media == portrait {
+    @media only screen and (orientation: portrait) {
+      @content;
+    }
+  }
+  @else if $media == mobile {
+    @media only screen and (max-width: $break-small) {
+      @content;
+    }
+  }
+  @else if $media == exclude-mobile {
+    @media only screen and (min-width: $break-small + 1) {
+      @content;
+    }
+  }
+  @else if $media == tablet {
+    @media only screen and (min-width: $break-small + 1) and (max-width: $break-large) {
+      @content;
+    }
+  }
+  @else if $media == desktop {
+    @media only screen and (min-width: $break-large + 1) {
+      @content;
+    }
+  }
+  @else if $media == retina {
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+      @content;
+    }
+  }
+}

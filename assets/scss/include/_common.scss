@@ -1,0 +1,61 @@
+html,body {
+  font-family: $font-family;
+  display: table;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  min-width: 320px;
+  line-height: $line-height;
+  font-size: $font-size;
+  color: $text-color;
+  background: $main-color;
+  overflow: hidden;
+  @include background(radial-gradient(top left, $main-color 0%, darken($main-color, 30%) 100%));
+  @include respond-to("mobile") {
+    font-size: $font-size * 0.8;
+  }
+}
+
+a {
+  color: $text-color;
+  text-decoration: none;
+  &:hover, &:active, &:focus {
+    color: $link-color;
+  }
+}
+
+.main {
+  display: table-cell;
+  position: relative;
+  vertical-align: middle;
+  z-index: 1;
+  .inner-content {
+    width: 40%;
+    max-width: 400px;
+    padding: 7% 10%;
+    text-align: center;
+    margin: 0 auto;
+    h1 {
+      margin: 0 0 $line-height;
+    }
+    img {
+      width: 100%;
+      max-height: 100px;
+    }
+    ul {
+      margin: $line-height * 1.4 0 0;
+      li {
+        margin: $line-height * 0.4 $line-height * 0.4 0;
+        font-size: $line-height * 1.4;
+        display: inline-block;
+      }
+    }
+  }
+}
+
+// Canvas
+#c {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

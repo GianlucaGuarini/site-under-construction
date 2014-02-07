@@ -1,0 +1,33 @@
+{
+  "name": "site-under-construction",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Simple simple splash page to use while a site is still under construction",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-compass": "~0.7.1",
+    "grunt-usemin": "*",
+    "load-grunt-tasks": "~0.3.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-clean": "*",
+    "grunt-favicons": "~0.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "GianlucaGuarini",
+  "license": "MIT",
+  "scripts": {
+    "test": "grunt"
+  },
+  "keywords": [
+    "site",
+    "template"
+  ]
+}

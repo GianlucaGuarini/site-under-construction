@@ -17,7 +17,7 @@ Simple simple splash page template to use while a site is still under constructi
 
 ### Usage
 
-#### Install all the npm dependencies
+#### Install all the nodejs dependencies
 
 ```shell
 $ npm install

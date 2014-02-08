@@ -1,6 +1,6 @@
 site-under-construction
 =======================
-Simple simple splash page template to use while a site is still under construction
+Simple splash page template to use while a site is still under construction
 
 ### Demos
 
